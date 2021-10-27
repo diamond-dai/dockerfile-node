@@ -1,15 +1,15 @@
-# dockerfile
+# dockerfile-node
 
-普段使うdockerfile置き場
-
+普段使うnode.jsのdockerfile置き場
 
 ## buildして接続
 
 各ディレクトリで以下を実行
 
-```
+```sh
 ./run.sh
 ```
+
 ## gulp-scss
 
 scssのbuild

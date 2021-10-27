@@ -11,14 +11,13 @@ scssのbuild
 
 ### 監視無しで実行
 
-```
+```sh
 npx gulp scss
 ```
 
+### package.jsonのver up
 
-### package.json の ver up
-
-ホストで以下を実行 nodeがインストール済みであること
+ホストで以下を実行nodeがインストール済みであること
 
 ```sh
 cd gulp
@@ -26,22 +25,19 @@ npm install -g npm-check-updates
 ncu -u
 ```
 
-
-### gulpfile.js 上書き
-
+### gulpfile.js上書き
 
 ホストにgulpfile.jsを作成し下記のパスにマウント
 
-```
+```text
 /opt/gulp/gulpfile.js
 ```
-
 
 ### config上書き
 
 ホストにgulpconfig.jsonを作成し下記のパスにマウント
 
-```
+```text
 /opt/gulp/config.json
 ```
 
@@ -76,14 +72,13 @@ outputStyleには以下が指定できる
 * compact
 * compressed
 
-
 ### 参考
 
 sassOptions
-https://github.com/sass/node-sass
+[https://github.com/sass/node-sass]
 
 autoprefixerOptions
-https://www.npmjs.com/package/autoprefixer
+[https://www.npmjs.com/package/autoprefixer]
 
 sortOptions
-https://www.npmjs.com/package/postcss-sorting
+[https://www.npmjs.com/package/postcss-sorting]
